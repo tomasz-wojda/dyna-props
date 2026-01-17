@@ -1,0 +1,29 @@
+# Groovy/Java
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Test config files (keep examples)
+test-config.groovy
+auto-config.groovy
