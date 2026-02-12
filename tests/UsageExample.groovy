@@ -5,7 +5,7 @@
  */
 
 // Load the ConfigManager class (remove package declaration first)
-def configManagerCode = new File('ConfigManager.groovy').text
+def configManagerCode = new File('../ConfigManager.groovy').text
     .replaceFirst(/package\s+[\w.]+\s*/, '')
     .replaceFirst(/@CompileStatic\s*/, '')
 evaluate(configManagerCode)
